@@ -9,8 +9,6 @@ function App() {
 
         return <button className="square" onClick={handleClick}>{ value }</button>
     }
-
-
     function Board() {
         return (
             <div>
