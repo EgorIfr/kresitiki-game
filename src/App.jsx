@@ -4,7 +4,7 @@ import './App.css'
 function App() {
     function Square({ value }) {
         function handleClick() {
-            console.log('Клик!')
+            console.log('Клик!!')
         }
 
         return <button className="square" onClick={handleClick}>{ value }</button>
